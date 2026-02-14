@@ -31,7 +31,7 @@
         <div class="banner-right  flex justify-end items-end relative">
             <img src="./images/banner.png" alt="">
            <div class="bg-[#FFFFFF] rounded-xl shadow-2xl flex justify-center gap-2 items-center w-[255px] absolute bottom-[15px] left-[220px] py-[25px] px-[15px] ">
-            <img src="./images/Group 5.png" alt="">
+            <img src="./images/Group 5.png" alt="" class="transition duration-300 hover:scale-125 hover:rotate-12 animate-spin">
              <div>
                 <h2 class="text-[30px] font-semibold">5.00</h2>
                 <p class="text-[16px] text-[#777777] font-semibold ">Trust Pilot Ratings</p>
@@ -41,28 +41,28 @@
     </section>
 
     <!-- section-2 and card design -->
-     <section class="container mx-auto my-[90px] ">
-       <div class="text-center mx-w[65%] mb-20 mx-auto">
+     <section class="md:grid-cols-2 lg:grid-cols-3 container mx-auto my-[90px] ">
+       <div class="text-center mx-w[65%] mb-20 mx-auto ">
          <h2 class="font-semibold text-[45px] text-[#1C1C1C]">Our Featured Products</h2>
         <p class="font-semibold text-[#777777] text-[16px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
        </div>
-       <div class="feather-parent grid grid-cols-4 gap-4 ">
-        <div class="feather-card bg-linear-to-b from-[#F4F4F4] to-gray-500 p-8 text-center rounded-md">
+       <div class="feather-parent grid grid-cols-4 gap-4 drop-shadow-[0_0_8px_rgba(255,215,0,0.7)]">
+        <div class="feather-card bg-linear-to-b from-[#F4F4F4] to-gray-500 p-8 text-center rounded-md hover:to-blue-400 ">
             <img src="./images/tea-1.png" alt="" class="mx-auto mb-4">
             <h2 class="font-semibold text-[25px]">Milk Tea</h2>
             <p class="text-[16px] font-semibold">Creamer could be replaced <br> by fresh milk</p>
         </div>
-        <div class="feather-card bg-linear-to-b from-[#F4F4F4] to-gray-500 p-8 text-center  rounded-md">
+        <div class="feather-card bg-linear-to-b from-[#F4F4F4] to-gray-500 p-8 text-center  rounded-md  hover:to-blue-400">
             <img src="./images/tea-2.png" alt=""  class="mx-auto mb-4">
             <h2 class="font-semibold text-[25px]">Black Tea</h2>
             <p class="text-[16px] font-semibold">Creamer could be replaced <br> by fresh milk</p>
         </div>
-        <div class="feather-card bg-linear-to-b from-[#F4F4F4] to-gray-500 p-8 text-center  rounded-md">
+        <div class="feather-card bg-linear-to-b from-[#F4F4F4] to-gray-500 p-8 text-center  rounded-md  hover:to-blue-400">
             <img src="./images/tea-3.png" alt=""  class="mx-auto mb-4">
             <h2 class="font-semibold text-[25px]">Lemon Tea </h2>
             <p class="text-[16px] font-semibold">Creamer could be replaced <br> by fresh milk</p>
         </div>
-        <div class="feather-card bg-linear-to-b from-[#F4F4F4] to-gray-500 p-8 text-center  rounded-md">
+        <div class="feather-card bg-linear-to-b from-[#F4F4F4] to-gray-500 p-8 text-center  rounded-md  hover:to-blue-400">
             <img src="./images/tea-4.png" alt=""  class="mx-auto mb-4">
             <h2 class="font-semibold text-[25px]">Green Tea</h2>
             <p class="text-[16px] font-semibold">Creamer could be replaced <br> by fresh milk</p>
@@ -70,7 +70,7 @@
        </div>
      </section>
      <!-- grate-section -->
-      <section class="container mx-auto  gap-8 grid grid-cols-2 mb-[90px]">
+      <section class="container mx-auto  gap-8 grid md:grid-cols-2 mb-[90px]">
         <div class="gra-left gap-[30px]  grid grid-cols-2 grid grid-rows-3 ">
             <div class=" bg-linear-to-r from-[#FF0000] to-[#FF8938] opacity-10 rounded-md "></div>
             <div class=" row-span-2 bg-[#E6A623] opacity-90 flex justify-center items-center rounded-md ">
@@ -93,14 +93,13 @@
         </div>
       </section>
       <!-- meet our section  -->
-       <section class="container mx-auto gap-8 grid grid-cols-2 mb-[90px] bg-linear-to-r from-[#FF8938] to-[#FF0000] p-[70px] ">
+       <section class="container mx-auto gap-8 grid md:grid-cols-2  mb-[90px] bg-linear-to-r from-[#FF8938] to-[#FF0000] p-[70px] ">
         <div class="meet-our-left space-y-4">
             <h2 class="font-extrabold text-[45px] text-[#F4F4F4]">Meet Our Super <br> Clients</h2>
-            <p class="font-medium text-[16px] text-[#F4F4F4] ">There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, or randomised words which don't  <br>      look even slightly believable. </p>
-            <button class="font-bold text-[20px] bg-[#FFFFFF] py-7 px-14 rounded-md ">
+            <p class="font-medium text-[16px] text-[#F4F4F4] ">There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, or randomised words which don't  <br> look even slightly believable. </p>
+            <button class="font-bold text-[20px] bg-[#FFFFFF] py-7 px-14 rounded-md hover:bg-red-300 ">
                 <span class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent">
-                    Show All
-            </span></button>
+                    Show All</span></button>
         </div>
         <div  class="meet-our-right space-y-4 relative ">
             <div class="bg-[#FFFFFF] rounded-md p-4 w-[433px] absolute  z-50 -left-[100px] top-[100px]">
@@ -134,27 +133,27 @@
        </section>
 
        <!-- never & even section -->
-        <section class="container mx-auto space-y-16">
+        <section class=" md:grid-cols-2 container mx-auto space-y-16">
             <div class="text-center">
                 <h2 class="font-extrabold text-[45px] text-[#1C1C1C] mb-3 ">News & Events</h2>
                 <p class="font-medium text-[16px] text-[#777777] ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
             <div class="feather-parent grid grid-cols-3 gap-4  ">
-            <div class="feather-card bg-[#D2D2D2] p-16  rounded-md   ">
-            <img src="./images/news-1.png" alt="" class=" mb-4">
+            <div class="feather-card bg-[#D2D2D2] p-16  rounded-md  transition duration-300 hover:scale-105  ">
+            <img src="./images/news-1.png" alt="" class=" mb-4 ">
             <h4 class="font-medium text-[16px] mb-2">Feb 05, 2027</h4>
             <h2 class="font-extrabold text-[20px] text-[#1C1C1C] mb-2 ">Collecting 8 points for <br> discount</h2>
             <p class="text-[16px] font-medium text-[#777777] mb-3">There are many variations of passages of <br> Lorem Ipsum available.</p>
             <h5 class="font-bold text-[16px] text-[#1C1C1C]">Learn More</h5>
                 </div>
-            <div class="feather-card bg-[#D2D2D2] p-16  rounded-md">
-            <img src="./images/news-1.png" alt="" class=" mb-4">
+            <div class="feather-card bg-[#D2D2D2] p-16  rounded-md  transition duration-300 hover:scale-105">
+            <img src="./images/news-1.png" alt="" class=" mb-4 ">
             <h4 class="font-medium text-[16px] mb-3">Feb 05, 2027</h4>
             <h2 class="font-extrabold text-[20px] text-[#1C1C1C] mb-3 ">Collecting 8 points for <br> discount</h2>
             <p class="text-[16px] font-medium text-[#777777] mb-3">There are many variations of passages of <br> Lorem Ipsum available.</p>
             <h5 class="font-bold text-[16px] text-[#1C1C1C]">Learn More</h5>
                 </div>
-            <div class="feather-card bg-[#D2D2D2] p-16  rounded-md">
+            <div class="feather-card bg-[#D2D2D2] p-16  rounded-md transition duration-300 hover:scale-105 ">
             <img src="./images/news-1.png" alt="" class=" mb-4">
             <h4 class="font-medium text-[16px] mb-3">Feb 05, 2027</h4>
             <h2 class="font-extrabold text-[20px] text-[#1C1C1C] mb-3 ">Collecting 8 points for <br> discount</h2>
